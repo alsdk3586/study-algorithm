@@ -1,4 +1,4 @@
-# 알고리즘 스터디
+#알고리즘 스터디
 
 ### 스터디원
 * **강혁**, **김수진**, **김혜민**, **서동현**
@@ -12,7 +12,7 @@
 
 ### 2주차 
 #### `2021 KAKAO BLIND RECRUITMENT`  
-* **KAKAO** [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/72412)
+* **KAKAO** [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 
 * **KAKAO** [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 
