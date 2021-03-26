@@ -1,0 +1,39 @@
+# Directories #
+/build/
+/bin/
+ 
+# OS Files #
+.DS_Store
+  
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+      
+# Eclipse #
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+
+# CLion #
+**/CMakeLists.txt
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.idea
