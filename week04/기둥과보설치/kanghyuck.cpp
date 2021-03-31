@@ -60,7 +60,7 @@ void Start(void)
             if(CannotRemove(y,x,item)) continue;  // 제거할 수 없는 조건인 경우
 
             // 제거할 수 있는 경우
-            map[y][x] &= ~(1<<item);  // -1이 지운 표시. 커맨드 끝나고 나중에 설치된 것(0|1)인 얘들만 확인 할 것임
+            map[y][x] &= ~(1<<item);  // 비트마스킹. 해당 비트만 지워줌
         }
     }
 }
