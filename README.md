@@ -52,4 +52,23 @@
 * **SWEA** [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) `강혁` `수진`
 
 
+### 5주차
+#### `2019 KAKAO BLIND RECRUITMENT`  
+*  **KAKAO** [오픈 채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)  `동현`, `수진` 
+
+*  **KAKAO** [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)  `강혁`, `수진` 
+
+*  **KAKAO** [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)  `혜민`, `수진` 
+
+*  **SWEA** [요리사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH)  `혜민`, `강혁` 
+
+*  **SWEA** [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH&) `강혁`, `동현`  
+
+
+
+
+
+
+
+
 
