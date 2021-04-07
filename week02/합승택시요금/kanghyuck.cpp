@@ -1,69 +1,52 @@
 /* 합승 택시 요금, kang-hyuck */
-#include <string>
 #include <vector>
-#include <unordered_map>
-#include <algorithm>  // sort()
 #include <iostream>
-#include <sstream>
 using namespace std;
-unordered_map<string, int> m;  // 문자열 -> 정수(인덱스)
-vector<int> people[4][3][3][3];   // people[개발언어][직군][경력][소울푸드] = 점수
 
-vector<int> solution(vector<string> info, vector<string> query) {
-    vector<int> answer;
-    int i,j,k,l, score;   string lang, position, career,soulfood;
+#define INF 87654321  // int 최댓값 20억 -> n*INF이 20억 넘으면 안됨
 
+int N,S,A,B;
+int map[210][210];  // map[출발점][도착점] = (비용).  Floyd-Warshall에서 사용
+vector<vector<int>> Fares;
 
-    // (string -> 정수) 변환 해시테이블 생성
-    m["-"] = 0;  // 쿼리에서 사용
-    m["cpp"]=1;  m["java"]=2; m["python"]=3;
-    m["backend"]=1;  m["frontend"]=2;
-    m["junior"]=1;  m["senior"]=2;
-    m["chicken"]=1;  m["pizza"]=2;
+void Init(void);
+void Floyd_Warshall(void);
 
+int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
+    int answer = INF;  // INF값으로 초기화
 
-    // 문자열 마다 다차원 배열에 값 저장
-    for( auto s : info ){
-        // stringstream에 문자열 입력
-        stringstream ss(s);    //  컴파일러 차이? - ss.str(s) 로 하면 s가 안바뀐다..
+    // 초기화
+    N=n; S=s; A=a; B=b; Fares=fares;  // 전역변수에 저장
+    Init();  // map 초기화.
 
-        // 문자열에서 문자 파싱
-        ss>>lang>>position>>career>>soulfood>>score;
-        int temp[4] = { m[lang], m[position], m[career], m[soulfood] };  // 원본 배열 생성(점수가 저장 될 index)
+    // 실행부
+    Floyd_Warshall();
 
-        // 비트마스킹 + 점수저장
-        int temp2[4] = {0, };  // 비트마스킹을 위한 배열 생성 (원본 배열 원소값 저장)
-        for(i=0; i<16; i++){   // 비트값(0000~1111)에 대응되는 temp2[] 배열 원소값 생성
-            for(j=0; j<4; j++){   // 1bit 씩 1/0 확인
-                temp2[j] = 0;  // 0값으로 초기화
-                if(i&(1<<j)) temp2[j] = temp[j];  // 1일 경우 "원본 배열 원소값" 저장
-            }
-
-            // 만들어낸 temp2[] 배열 원소값(index)을 이용하여 해당 위치에 점수 저장
-            people[temp2[0]][temp2[1]][temp2[2]][temp2[3]].push_back(score);  // 점수 저장
-        }
-    }
-
-
-    // 점수값 정렬 (오름차순)
-    for(i=0; i<4; i++) for(j=0; j<3; j++) for(k=0; k<3; k++) for(l=0; l<3; l++)
-        sort(people[i][j][k][l].begin(), people[i][j][k][l].end());
-
-
-    // 이분 탐색
-    for( auto s : query ){
-        // stringstream에 문자열 입력
-        stringstream ss(s);  string temp; // and문자 temp에 담음
-
-        // 문자열에서 문자 파싱
-        ss>>lang>>temp>>position>>temp>>career>>temp>>soulfood>>score;
-
-        // 인원수 저장
-        int index = lower_bound(people[m[lang]][m[position]][m[career]][m[soulfood]].begin(), people[m[lang]][m[position]][m[career]][m[soulfood]].end(), score) - people[m[lang]][m[position]][m[career]][m[soulfood]].begin();  // "이상인 값"이 나오는 인덱스를 바이너리 서치로 찾는다
-        answer.push_back(people[m[lang]][m[position]][m[career]][m[soulfood]].size() - index);  // 인원수 저장
-    }
-
+    // 비용 계산
+    answer = map[s][a] + map[s][b];  // 합승하지 않는 경우
+    for(int i=1; i<=N; i++) answer = min(answer, map[s][i]+map[i][a]+map[i][b]);  // 합승하는 경우
 
     // 출력부
     return answer;
+}
+
+
+void Init(){
+    // map을 INF로 모두 초기화
+    for(int i=1; i<=N; i++) for(int j=1; j<=N; j++) map[i][j] = INF;
+
+    // 연결된 edge 정보를 map에 반영
+    for(int i=0; i<(int)Fares.size(); i++){
+        map[Fares[i][0]][Fares[i][1]] = Fares[i][2];
+        map[Fares[i][1]][Fares[i][0]] = Fares[i][2];
+    }
+}
+
+void Floyd_Warshall(){
+    // map값 계산
+    for(int k=1; k<=N; k++) for(int i=1; i<=N; i++) for(int j=1; j<=N; j++)
+        map[i][j] = min(map[i][j], map[i][k]+map[k][j]);
+
+    // 자기 자신으로 가는 비용은 0
+    for(int i=1,j=1; i<=N&&j<=N; i++,j++) map[i][j] = 0;
 }
