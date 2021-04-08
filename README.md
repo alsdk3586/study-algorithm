@@ -66,7 +66,18 @@
 
 
 
+### 6주차
+#### `2019 KAKAO BLIND RECRUITMENT`  
+*  **KAKAO** [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) `동현`, `강혁`
 
+*  **KAKAO** [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892) `수진`, `동현`
+
+*  **KAKAO** [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893) `혜민`, `동현`
+
+*  **SWEA** [숫자 만들기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH) `혜민`,`강혁`
+
+*  **SWEA** [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) `수진`, `강혁`
+ 
 
 
 
