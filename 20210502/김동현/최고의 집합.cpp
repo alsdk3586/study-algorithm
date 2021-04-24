@@ -11,13 +11,8 @@ vector<int> solution(int n, int s) {
         return vector<int>{ -1 };
     
     vector<int> ret(n, quot);
-    if (rem == 0)
-        return ret;
-    else
-    {
-        for (auto it = ret.rbegin(); rem > 0; it++, rem--)
-            (*it)++;
+    for (auto it = ret.rbegin(); rem > 0; it++, rem--)
+         (*it)++;
         
-        return ret;
-    }
+    return ret;
 }
