@@ -32,7 +32,7 @@ https://www.spacecloud.kr/search?q=%EA%B0%95%EB%82%A8%20%EC%8A%A4%ED%84%B0%EB%94
 
 동욱: (평일)삼성동, (주말)평촌
 
-충일: 
+충일: 목동
 
 
 
