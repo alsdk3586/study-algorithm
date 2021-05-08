@@ -9,13 +9,14 @@ using namespace std;
 
 int main(void)
 {
-	int n, maxDP[3] = {0, 0, 0}, minDP[3] = {0, 0, 0}, input[3], temp_0, temp_1;
+	
+    int n, maxDP[3] = {0, 0, 0}, minDP[3] = {0, 0, 0}, input[3], temp_0, temp_1;
 	
     scanf("%d", &n);
     scanf("%d %d %d", &maxDP[0], &maxDP[1], &maxDP[2]);
 
 	
-	minDP[0] = maxDP[0];
+    minDP[0] = maxDP[0];
     minDP[1] = maxDP[1];
     minDP[2] = maxDP[2];
     
@@ -41,5 +42,5 @@ int main(void)
     printf("%d ", (max(max(maxDP[0], maxDP[1]), maxDP[2])));
     printf("%d", (min(min(minDP[0], minDP[1]), minDP[2])));
     
-	return 0;
+ return 0;
 }
