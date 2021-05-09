@@ -6,7 +6,7 @@
 __1 주 온라인(기출/문제) / 1 주 오프라인(학습)__
 
 
-## 2021년 5월 9일은 [오프라인]
+## 2021년 5월 16일은 [오프라인]
 
 __일요일 오전__
 
@@ -21,17 +21,17 @@ __9시__
 
 ## 5월 16일 발표자
 
-동현
+__동현
 
 ## 문제 (DP 2문제)
 
 1. 가장 긴 증가하는 부분 수열 2
 
-https://www.acmicpc.net/problem/12015
+   https://www.acmicpc.net/problem/12015
 
 2. 가장 긴 증가하는 부분 수열 5
 
-https://www.acmicpc.net/problem/14003
+   https://www.acmicpc.net/problem/14003
 
 
 
