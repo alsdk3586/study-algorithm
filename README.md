@@ -25,13 +25,11 @@ __동현__
 
 ## 문제 (2문제)
 
-1. 
+1. 행성 터널
+   https://www.acmicpc.net/problem/2887
 
-   
-
-2. 
-
-   
+2. 전력난
+   https://www.acmicpc.net/problem/6497   
 
 
 
