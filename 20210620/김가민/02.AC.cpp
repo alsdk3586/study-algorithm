@@ -14,7 +14,6 @@ int main()
 
 	int n, count, num;
 	string AC;
-	bool checkArr;
 	deque<int> dq;
 	string arr, temp;
 
@@ -24,7 +23,6 @@ int main()
 		cin >> AC;
 		cin >> count;
 		cin >> arr;
-		checkArr = true;
 		num = 0;
 
 		for (int i = 0; i < arr.size(); i++)
