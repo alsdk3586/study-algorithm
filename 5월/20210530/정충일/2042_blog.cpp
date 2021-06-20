@@ -1,7 +1,7 @@
 //https://hugssy.tistory.com/132
 
 #include<iostream>
-#define MAX 1000002
+#define MAX 10000002
 using namespace std;
  
 typedef long long ll;
@@ -16,25 +16,28 @@ void Update(int idx, ll delta) {
  
 ll findSum(int st, int en) {
     ll ret = 0;
-    while (st <= en) {
+    while (st < en) {
         if (st % 2 == 1) ret += idxTree[st];
         if (en % 2 == 0) ret += idxTree[en];
         st = (st + 1) / 2;
         en = (en - 1) / 2;
     }
+    ret += idxTree[st];
     return ret;
 }
  
 int main(void) {
-    int n, m, k;
-    cin >> n >> m >> k;
-    int start = 1;
+    long long n, m, k;
+    cin >> m >> k;
+    n = 1000;
+    long long start = 1;
     while (start < n) {
         start *= 2; //n보다 큰 가장 작은 2의 제곱수
     }
     
     for (int i = 0; i < n; i++) { //원래 빈공간도 채워줘야 한다. 쿼리에 영향을 받지 않는 값으로
-        cin >> idxTree[start + i];
+       // cin >> idxTree[start + i];
+        idxTree[start + i] = i + 1;
     }
     //트리의 아래에서 위로 채워가기
     for (int i = start - 1; i >= 1; i--) {

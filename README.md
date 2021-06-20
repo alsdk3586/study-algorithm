@@ -1,9 +1,8 @@
 # 알고리즘 스터디
 
-현재 인원 : 5명 
+현재 인원 : 7명
 
-
-__1 주 온라인(기출/문제) / 1 주 오프라인(학습)__
+ 
 
 
 ## 2021년 6월 20일은 [오프라인]
@@ -19,25 +18,29 @@ __9시__
 __강남__
 
 
-## 6월 20일 발표자
 
-__NULL__
+
+## 6월 27일 발표자
+
+__충일__
+
+
 
 ## 문제 (3문제)
 
-1. 그룹 단어 체커
-   https://www.acmicpc.net/problem/1316
+1. __단체 사진 찍기__
 
-2. AC
-   https://www.acmicpc.net/problem/5430
+   https://programmers.co.kr/learn/courses/30/lessons/1835
+
+2. 줄기세포배양
+
+   https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo&categoryId=AWXRJ8EKe48DFAUo&categoryType=CODE&problemTitle=%EC%97%AD%EB%9F%89&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+
+3. Z
+
+   https://www.acmicpc.net/problem/1074
+
    
-3. LCS
-   https://www.acmicpc.net/problem/9251   
-   
-
-
-
-
 
 ## 벌금
 
@@ -48,6 +51,8 @@ __지각__ :  10분까지 ok , 1분당 100원
 __결석__ : 무단 결석 3회이상  -> out
 
 
+
+
 ## 학습 예정
 
-- 문자열( 6월 20일 )
+- 
