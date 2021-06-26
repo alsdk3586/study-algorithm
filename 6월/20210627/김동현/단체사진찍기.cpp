@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <map>
 #include <bitset>
-
 using namespace std;
 
 map<pair <char, char>, bitset<8>> valid_conditions(vector<string>& cond)
