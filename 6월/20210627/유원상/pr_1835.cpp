@@ -4,29 +4,41 @@
 #include <string>
 
 std::string name = "ACFJMNRT";
-int diff[26][26];
-int cond[26][26];
+std::vector<int> diff[26][26];
+std::vector<int> cond[26][26];
 
-std::vector<int> comb;
-
-bool verify(std::string name) {
+bool verify(std::string& name) {
     
     for (int i = 0; i < 8; ++i) {
         for (int j = i + 1; j < 8; ++j) {
-            int abs = j - i - 1;
-            int expect = diff[name[j]][name[i]];
+            int abs = std::abs(i - j) - 1;
             
-            bool valid;
+            int idx1 = name[i];
+            int idx2 = name[j];
             
-            if (cond[j][i] == '>')
-                valid = (abs > expect);
-            else if (cond[j][i] == '<')
-                valid = (abs < expect);
-            else
-                valid = (abs == expect);
+            if (idx1 > idx2)
+                std::swap(idx1, idx2);
             
-            if (!valid)
-                return false;
+            auto& ed = diff[idx1][idx2];
+            auto& ec = cond[idx1][idx2];
+            
+            int count = ed.size();
+            for (int k = 0; k < count; ++k) {
+                bool valid = true;
+                
+                int expect = ed[k];
+                int cond = ec[k];
+                
+                if (cond == '>')
+                    valid = abs > expect;
+                else if (cond == '<')
+                    valid = abs < expect;
+                else if (cond == '=')
+                    valid = abs == expect;
+                
+                if (!valid)
+                    return false;
+            }
         }
     }
     
@@ -36,21 +48,18 @@ bool verify(std::string name) {
 int solution(int n, std::vector<std::string> data) {
     int result = 0;
     
-    for (int i = 0; i < 26; ++i) {
-        for (int j = 0; j < 26; ++j) {
-            diff[i][j] = diff[j][i] = -1;
-            cond[i][j] = cond[j][i] = '>';
-        }
-    }
-    
     for (auto& c : name)
         c -= 'A';
     
     for (auto str : data) {
         int idx1 = str[0] - 'A';
         int idx2 = str[2] - 'A';
-        diff[idx1][idx2] = diff[idx2][idx1] = str[4] - '0';
-        cond[idx1][idx2] = cond[idx1][idx2] = str[3];
+        
+        if (idx1 > idx2)
+            std::swap(idx1, idx2);
+        
+        diff[idx1][idx2].push_back(str[4] - '0');
+        cond[idx1][idx2].push_back(str[3]);
     }
     
     do {
@@ -59,16 +68,4 @@ int solution(int n, std::vector<std::string> data) {
     } while (std::next_permutation(name.begin(), name.end()));
         
     return result;
-}
-
-int main(int argc, const char* argv[]) {
-    
-    std::vector<std::string> data = {
-        "N~F=0", "R~T>2"
-    };
-    
-    std::cout << solution(2, data);
-    
-    
-    return 0;
 }
