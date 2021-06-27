@@ -1,11 +1,11 @@
 # 알고리즘 스터디
 
-현재 인원 : 7명
+현재 인원 : 6명
 
  
 
 
-## 2021년 6월 20일은 [오프라인]
+## 2021년 7월 4일은 [오프라인]
 
 __일요일 오전__
 
@@ -20,25 +20,24 @@ __강남__
 
 
 
-## 6월 27일 발표자
+## 7월 4일 발표자
 
-__충일__
-
+-
 
 
 ## 문제 (3문제)
 
-1. __단체 사진 찍기__
+1. 메뉴 리뉴얼
 
-   https://programmers.co.kr/learn/courses/30/lessons/1835
+   https://programmers.co.kr/learn/courses/30/lessons/72411
 
-2. 줄기세포배양
+2. 한 줄로 서기
 
-   https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo&categoryId=AWXRJ8EKe48DFAUo&categoryType=CODE&problemTitle=%EC%97%AD%EB%9F%89&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+   https://www.acmicpc.net/problem/1138
 
-3. Z
+3. 스타트 링크
 
-   https://www.acmicpc.net/problem/1074
+   https://www.acmicpc.net/problem/5014
 
    
 
