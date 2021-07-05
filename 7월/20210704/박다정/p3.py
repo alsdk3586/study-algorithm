@@ -8,25 +8,13 @@ def bfs(f, s, u, d, table):
 
     while queue:
         current = queue.popleft()
+        next_floors = [current + u, current - d]
 
-        if current + u < f + 1:
-            next_floor = current + u
-
-            if not visited[next_floor]:
+        for next_floor in next_floors:
+            if 0 < next_floor < f + 1 and not visited[next_floor]:
                 visited[next_floor] = True
                 table[next_floor] = table[current] + 1
                 queue.append(next_floor)
-            else:
-                table[next_floor] = min(table[current] + 1, table[next_floor])
-        if current - d > 0:
-            next_floor = current - d
-
-            if not visited[next_floor]:
-                visited[next_floor] = True
-                table[next_floor] = table[current] + 1
-                queue.append(next_floor)
-            else:
-                table[next_floor] = min(table[current] + 1, table[next_floor])
 
 
 def main(f, s, g, u, d):
