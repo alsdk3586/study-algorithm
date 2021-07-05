@@ -5,7 +5,7 @@
  
 
 
-## 2021년 7월 4일은 [오프라인]
+## 2021년 7월 11 일은 [오프라인]
 
 __일요일 오전__
 
@@ -17,28 +17,29 @@ __9시__
 
 __강남__
 
+## 공지
+
+- 주석달기
 
 
-
-## 7월 4일 발표자
+## 7월 11일 발표자
 
 -
 
 
-## 문제 (3문제)
+## 문제 (4문제)
 
-1. 메뉴 리뉴얼
+1. 벽부수고 이동하기
+https://www.acmicpc.net/problem/2206
 
-   https://programmers.co.kr/learn/courses/30/lessons/72411
+2. 회전초밥
+https://www.acmicpc.net/problem/15961
 
-2. 한 줄로 서기
+3. 순위검색 
+https://programmers.co.kr/learn/courses/30/lessons/72412
 
-   https://www.acmicpc.net/problem/1138
-
-3. 스타트 링크
-
-   https://www.acmicpc.net/problem/5014
-
+4. 광고삽입
+https://programmers.co.kr/learn/courses/30/lessons/72414
    
 
 ## 벌금
