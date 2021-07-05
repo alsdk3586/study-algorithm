@@ -29,4 +29,4 @@ for i in range(n):
             prev_index = index
             break
 
-print(' '.join(map(str, result)))
+print(*result)
