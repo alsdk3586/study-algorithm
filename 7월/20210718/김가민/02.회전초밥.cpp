@@ -7,8 +7,8 @@ const int MAX = 3000000;
 
 int arr[MAX];
 int dish[3001];
-//�쉶�쟾珥덈갈 踰⑦듃�뿉 �넃�씤 �젒�떆瑜� �삤瑜몄そ�쑝濡� �븳移몄뵫 �씠�룞�븯硫댁꽌 珥덈갈醫낅쪟瑜� �꽭�뼱�빞 �븯誘�濡�
-//�닾�룷�씤�꽣 && �뒳�씪�씠�뵫 �쐢�룄�슦 �븣怨좊━利섏쓣 �씠�슜�븳�떎
+//회전초밥 벨트에 놓인 접시를 오른쪽으로 한칸씩 이동하면서 초밥종류를 세어야 하므로
+//투포인터 && 슬라이딩 윈도우 알고리즘을 이용한다
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -17,45 +17,45 @@ int main()
 	int N, d, k, c, left, right, cnt = 0, result = 0;
 	cin >> N >> d >> k >> c;
 
-	//�닾�룷�씤�꽣 �븣怨좊━利� �궗�슜�쓣 �쐞�븳 蹂��닔 珥덇린�솕
+	//투포인터 알고리즘 사용을 위한 변수 초기화
 	left = 0, right = k - 1;
 
 	for (int i = 0; i < N; i++)
 	{
-		//arr �뿉 N源뚯�� 醫낅쪟 �엯�젰諛쏆쓬
+		//arr 에 N까지 종류 입력받음
 		cin >> arr[i];
 	}
 
 	for (int j = 0; j < k; j++)
 	{
-		//k媛쒓퉴吏� �엯�젰諛쏆쑝硫댁꽌 �빐�떦�뒪�떆�쓽 媛쒖닔 dish�뿉 �엯�젰 �떆�궡
+		//k개까지 입력받으면서 해당스시의 개수 dish에 입력 시킴
 		dish[arr[j]]++;
 
-		//k媛쒓퉴吏��쓽 �뒪�떆 醫낅쪟 count
+		//k개까지의 스시 종류 count
 		if (dish[arr[j]] == 1)
 			cnt++;
 	}
 
-	//蹂대꼫�뒪 �뒪�떆 怨꾩궛
+	//보너스 스시 계산
 	dish[c]++;
 	if (dish[c] == 1)
 		cnt++;
 
-	//left媛� N蹂대떎 �옉�쓣 �븣源뚯��留� 諛섎났
+	//left가 N보다 작을 때까지만 반복
 	while (left < N)
 	{
-		//異쒕젰媛믪�� 媛�吏볦닔�쓽 理쒕뙎媛믪씠誘�濡� max怨꾩궛
+		//출력값은 가짓수의 최댓값이므로 max계산
 		result = max(result, cnt);
-		//left瑜� �븳移� �뒛由щ㈃�꽌 �쁽�옱�쐞移섏쓽 珥덈갈醫낅쪟瑜� --�떆�궓�떎.
-		//留뚯빟 �젣嫄고븳 珥덈갈�씠 �쁽�옱 �븯�굹�룄 �뾾�쑝硫� cnt瑜� 1以꾩엫.
+		//left를 한칸 늘리면서 현재위치의 초밥종류를 --시킨다.
+		//만약 제거한 초밥이 현재 하나도 없으면 cnt를 1줄임.
 		if (--dish[arr[left++]] == 0)
 			cnt--;
-		//right�뒗 N蹂대떎 �겕硫� �븞�릺怨�, �궗�씠�겢�쓣 �삎�꽦 �빐�빞�븯誘�濡�,
-		//right�뒗 right+1�쓣 N�쑝濡� �굹�늿 �굹癒몄��
+		//right는 N보다 크면 안되고, 사이클을 형성 해야하므로,
+		//right는 right+1을 N으로 나눈 나머지
 		right = (right + 1) % N;
 
-		//right瑜� �븳移� �뒛由고썑 異붽�� �맂 珥덈갈醫낅쪟瑜� ++�떆�궓�떎.
-		//異붽���맂 珥덈갈�씠 �깉濡쒖슫 醫낅쪟�씪硫�(利� dish[]==1) cnt瑜� 1利앷���떆�궡.
+		//right를 한칸 늘린후 추가 된 초밥종류를 ++시킨다.
+		//추가된 초밥이 새로운 종류라면(즉 dish[]==1) cnt를 1증가시킴.
 		if (++dish[arr[right]] == 1)
 			cnt++;
 	}
@@ -63,7 +63,7 @@ int main()
 	cout << result << "\n";
 	return 0;
 }
-//deque �궗�슜
+//deque 사용
 #include <iostream>
 #include <algorithm>
 #include <deque>
@@ -78,7 +78,7 @@ deque<int> dq;
 int main()
 {
 
-	//cin, cout �냽�룄�뼢�긽
+	//cin, cout 속도향상
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
@@ -88,10 +88,10 @@ int main()
 
 	for (int i = 0; i < N; i++)
 	{
-		cin >> arr[i];	//N源뚯�� �룎硫댁꽌 arr[i]�뿉 媛� �엯�젰諛쏄린
+		cin >> arr[i];	//N까지 돌면서 arr[i]에 값 입력받기
 	}
 
-	//泥ル쾲吏� �뒪�떆遺��꽣 k踰덉㎏源뚯�� �뜳�뿉 �꽔怨� �뒪�떆�쓽 醫낅쪟瑜� �꽱�떎
+	//첫번째 스시부터 k번째까지 덱에 넣고 스시의 종류를 센다
 	for (int i = 0; i < k; i++)
 	{
 		dq.push_back(arr[i]);
@@ -102,27 +102,27 @@ int main()
 		result = max(result, cnt);
 	}
 
-	//�뒳�씪�씠�뵫 �쐢�룄�슦 �궗�슜
+	//슬라이딩 윈도우 사용
 	for (int i = 0; i < N - 1; i++)
 	{
 		dq.pop_front();
-		//�빐�떦 (dq�뿉�꽌 類�) �뒪�떆�쓽 醫낅쪟媛� �뾾�쓣 寃쎌슦(利� 0�씠硫�) cnt瑜� 類��떎
+		//해당 (dq에서 뺀) 스시의 종류가 없을 경우(즉 0이면) cnt를 뺀다
 		if (!--dish[arr[i]])
 			cnt--;
 
-		//�떎�쓬 �뒪�떆((i+k)瑜� N�쑝濡� �굹�늿 �굹癒몄��)瑜� �뜳�뿉 �꽔�쓬
+		//다음 스시((i+k)를 N으로 나눈 나머지)를 덱에 넣음
 		dq.push_back(arr[(i + k) % N]);
 
-		//�깉濡쒖슫 醫낅쪟�쓽 �뒪�떆�씪硫�(利� 1�씠硫�) cnt瑜� �뜑�빐以��떎
+		//새로운 종류의 스시라면(즉 1이면) cnt를 더해준다
 		if (!(dish[arr[(i + k) % N]])++)
 			cnt++;
 
-		//�뜳�뿉 荑좏룿�뒪�떆媛� �뾾�떎硫�
+		//덱에 쿠폰스시가 없다면
 		if (!dish[c])
 		{
 			result = max(result, cnt + 1);
 		}
-		//�뜳�뿉 荑좏룿�뒪�떆媛� �엳�떎硫�
+		//덱에 쿠폰스시가 있다면
 		else
 			result = max(result, cnt);
 	}
