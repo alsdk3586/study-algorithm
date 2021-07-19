@@ -27,28 +27,21 @@ __미정__
 -NULL
 
 
-## 문제 (4+2문제)
+## 문제 (3문제)
 
-1. 벽부수고 이동하기
-https://www.acmicpc.net/problem/2206
+1. 아기 상어
+https://www.acmicpc.net/problem/16236
 
-2. 회전초밥
-https://www.acmicpc.net/problem/15961
+2. 행렬 테두리 회전하기
+https://programmers.co.kr/learn/courses/30/lessons/77485
 
-3. 순위검색 
-https://programmers.co.kr/learn/courses/30/lessons/72412
+3. 소가 길을 건너간 이유 6 
+https://www.acmicpc.net/problem/14466
 
-4. 광고삽입
-https://programmers.co.kr/learn/courses/30/lessons/72414
 
-+ (7월 18일 추가문제)
 
-1. 귀여운 라이언
-https://www.acmicpc.net/problem/15565
-
-2. 합이 0
-https://www.acmicpc.net/problem/3151
-   
+## 문제 출제 참고 사이트 
+https://github.com/tony9402/baekjoon
 
 ## 벌금
 
