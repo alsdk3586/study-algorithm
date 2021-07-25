@@ -5,7 +5,7 @@
  
 
 
-## 2021년 7월 18 일은 [미정]
+## 2021년 8월 1 일은 [미정]
 
 __일요일 오전__
 
@@ -22,21 +22,21 @@ __미정__
 - 주석달기
 
 
-## 7월 18일 발표자
+## 8월 1일 발표자
 
 -NULL
 
 
 ## 문제 (3문제)
 
-1. 아기 상어
-https://www.acmicpc.net/problem/16236
+1. 샘터
+https://www.acmicpc.net/problem/18513
 
-2. 행렬 테두리 회전하기
-https://programmers.co.kr/learn/courses/30/lessons/77485
+2. 다단계 칫솔 판매
+https://programmers.co.kr/learn/courses/30/lessons/77486
 
-3. 소가 길을 건너간 이유 6 
-https://www.acmicpc.net/problem/14466
+3. 저울
+https://www.acmicpc.net/problem/10159
 
 
 
