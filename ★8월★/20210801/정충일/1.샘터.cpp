@@ -17,8 +17,8 @@ ll bfs() {
         for(int i=0; i<Size;i++) { //size만큼 반복
             int a = q.front();
             q.pop();
-            for(int i=0;i<2;i++) {
-                int nx = a + dx[i]; //좌우 탐색
+            for(int j=0;j<2;j++) {
+                int nx = a + dx[j]; //좌우 탐색
                 if(!s.count(nx)) { //값이 없다면
                     s.insert(nx); q.push(nx);//추가
                     result+=misfortune;//불행도 갱신
