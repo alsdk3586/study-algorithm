@@ -5,7 +5,7 @@
  
 
 
-## 2021년 8월 1 일은 [미정]
+## 2021년 8월 8 일은 [미정]
 
 __일요일 오전__
 
@@ -22,21 +22,21 @@ __미정__
 - 주석달기
 
 
-## 8월 1일 발표자
+## 8월 8일 발표자
 
 -NULL
 
 
 ## 문제 (3문제)
 
-1. 샘터
-https://www.acmicpc.net/problem/18513
+1. 인구 이동
+https://www.acmicpc.net/problem/16234
 
-2. 다단계 칫솔 판매
-https://programmers.co.kr/learn/courses/30/lessons/77486
+2. 빗물
+https://www.acmicpc.net/problem/14719
 
-3. 저울
-https://www.acmicpc.net/problem/10159
+3. 우주 탐사선
+https://www.acmicpc.net/problem/17182
 
 
 
