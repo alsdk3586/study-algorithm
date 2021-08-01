@@ -21,17 +21,11 @@ while queue and k > 0:
         dic[current - 1] = unlucky + 1
         queue.append((current - 1, unlucky + 1))
         k -= 1
-    # 겹치는 부분이 존재할 때 최소값으로 갱신
-    elif current - 1 in dic:
-        dic[current - 1] = min(dic[current - 1], unlucky + 1)
 
     if k > 0 and current + 1 not in dic:
         dic[current + 1] = unlucky + 1
         queue.append((current + 1, unlucky + 1))
         k -= 1
-    # 겹치는 부분이 존재할 때 최소값으로 갱신
-    elif current + 1 in dic:
-        dic[current + 1] = min(dic[current + 1], unlucky + 1)
 
 
 for _, value in dic.items():
