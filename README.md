@@ -29,15 +29,14 @@ __강남__
 
 ## 문제 (3문제)
 
-1. 인구 이동
-https://www.acmicpc.net/problem/16234
+1. 회문
+https://www.acmicpc.net/problem/17609
 
-2. 빗물
-https://www.acmicpc.net/problem/14719
+2. 로또의 최고 순위와 최저 순위
+https://programmers.co.kr/learn/courses/30/lessons/77484
 
-3. 우주 탐사선
-https://www.acmicpc.net/problem/17182
-
+3. 운동
+https://www.acmicpc.net/problem/1956
 
 
 ## 문제 출제 참고 사이트 
