@@ -1,4 +1,4 @@
 ## 문제 풀이 (210815)
-1. [회문](https://yht0827.notion.site/bf941bc831734eda888cf4cae4ceb845)
-2. [로또의 최고 순위와 최저 순위](https://yht0827.notion.site/cb7d28cc19a04a82811f0489ec07cb05)
-3. [운동](https://yht0827.notion.site/47a6327a94994c2f8d6d60db3cfe14f6)
+1. [회문](https://ht.oopy.io/bf941bc8-3173-4eda-888c-f4cae4ceb845)
+2. [로또의 최고 순위와 최저 순위](https://ht.oopy.io/cb7d28cc-19a0-4a82-811f-0489ec07cb05)
+3. [운동](https://ht.oopy.io/47a6327a-9499-4c2f-8d6d-60db3cfe14f6)
