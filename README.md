@@ -1,15 +1,15 @@
 # 알고리즘 스터디
 
-현재 인원 : 7명
+현재 인원 : 8명
 
  
 
 
-## 2021년 8월 15 일은 [오프라인]
+## 2021년 8월 22 일은 [오프라인]
 
 __일요일 오전__
 
-__9시__
+__10시__
 
 
 
@@ -27,16 +27,19 @@ __강남__
 -NULL
 
 
-## 문제 (3문제)
+## 문제 (4문제)
 
-1. 회문
-https://www.acmicpc.net/problem/17609
+1. 나무 재테크
+https://www.acmicpc.net/problem/16235
 
-2. 로또의 최고 순위와 최저 순위
-https://programmers.co.kr/learn/courses/30/lessons/77484
+2. 호석이 두 마리 치킨
+https://www.acmicpc.net/problem/21278
 
-3. 운동
-https://www.acmicpc.net/problem/1956
+3. 124 나라의 숫자
+https://programmers.co.kr/learn/courses/30/lessons/12899
+
+4. [3차] 자동완성
+https://programmers.co.kr/learn/courses/30/lessons/17685
 
 
 ## 문제 출제 참고 사이트 
