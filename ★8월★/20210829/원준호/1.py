@@ -1,62 +1,43 @@
-R, C, M = map(int, input().split(" "))
-matrix = [[None for _ in range(C)] for _ in range(R)]
+N, M = map(int, input().split(" "))
+x, y, d = map(int, input().split(" "))
 
-for _ in range(M):
-    r,c,s,d,z = map(int, input().split(" "))
-    if d == 2:
-        d = 3
-    elif d == 3:
-        d = 2
-    matrix[r-1][c-1] = (z,s,d-1)
+matrix = []
+for _ in range(N):
+    matrix.append(list(map(int, input().split(" "))))
 
-# 1:상, 2:하, 3:우, 4:좌  =>  0:상, 1:우, 2:하, 3:좌2
-direction = [(-1,0),(0,1),(1,0),(0,-1)]
+if d == 3:
+    d = 1
+elif d == 1:
+    d = 3
 
-def move(i,j,s,d):
-    while s >= 1:
+# 0:북, 1:동, 2:남, 3:서  =>  0:북, 1:서, 2:남, 3:동
+direction = {0: (-1, 0), 1: (0, -1), 2: (1, 0), 3: (0, 1)}
 
-        if d%2 == 0 and i == 0:
-            d = 2
-        elif d%2 == 0 and i == R-1:
-            d = 0
-        elif d%2 == 1 and j == 0:
-            d = 1
-        elif d%2 == 1 and j == C-1:
-            d = 3
+cleaning = 1
+matrix[x][y] = 2
+while True:
+    # a,b
+    for _ in range(4):
+        d = (d+1)%4
+        dx, dy = direction[d]
+        nx = x + dx
+        ny = y + dy
+        if 0 <= nx < N and 0 <= ny < M and matrix[x + dx][y + dy] == 0:
+            x, y = nx, ny
+            cleaning += 1
+            matrix[x][y] = 2
+            break
+    else:
+        # c
+        back_d = (d+2)%4
+        dx, dy = direction[back_d]
+        nx = x + dx
+        ny = y + dy
 
-        di, dj = direction[d]
-        i = i + di
-        j = j + dj
-
-        s -= 1
-
-    return i,j,d
-
-sharks = []
-answer = 0
-for y in range(C):
-    # 사람 낚시
-    for i in range(R):
-        if matrix[i][y]:
-            answer += matrix[i][y][0]
-            matrix[i][y] = None
+        # d
+        if not (0 <= nx < N and 0 <= ny < M) or matrix[nx][ny] == 1:
             break
 
-    sharks = []
-    for i in range(R):
-        for j in range(C):
-            # 상어가 있으면
-            if matrix[i][j]:
-                z,s,d = matrix[i][j]
-                ni,nj,d = move(i,j,s,d)
-                matrix[i][j] = None
-                sharks.append([ni,nj,z,s,d])
+        x, y = nx, ny
 
-    for i,j,z,s,d in sharks:
-        if matrix[i][j] == None:
-            matrix[i][j] = (z,s,d)
-        else:
-            if matrix[i][j][0] < z:
-                matrix[i][j] = (z,s,d)
-
-print(answer)
+print(cleaning)
