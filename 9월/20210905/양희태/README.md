@@ -1,0 +1,5 @@
+## 문제 풀이 (210905)
+1. [직업군 추천하기](https://ht.oopy.io/9aa878d5-bf12-4dd8-b0db-3a2f395f210a)
+2. [키패드 누르기](https://ht.oopy.io/8b94e374-2cea-477b-8c13-529de7f780a3)
+3. [구간 합 구하기 4](https://ht.oopy.io/44f240fe-173d-47a1-b1f9-0baf39bd2cfb)
+4. [감소하는 수](https://ht.oopy.io/b6bc3c83-b149-488c-908e-3903139c28d4)
