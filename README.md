@@ -36,11 +36,11 @@ https://www.acmicpc.net/problem/16938
 
 
 ## 문제 출제 참고 사이트 
-https://github.com/tony9402/baekjoon
+코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
 
-https://www.acmicpc.net/workbook/view/1152
+삼성 SW 역량 테스트 기출: https://www.acmicpc.net/workbook/view/1152
 
-https://www.acmicpc.net/workbook/view/2771
+삼성 A형 기출: https://www.acmicpc.net/workbook/view/2771
 
 희태님 정리(카카오/삼성 기출 문제): https://ht.oopy.io/pscollection
 
