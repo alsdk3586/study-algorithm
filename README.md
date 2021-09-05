@@ -40,6 +40,10 @@ https://github.com/tony9402/baekjoon
 
 https://www.acmicpc.net/workbook/view/1152
 
+https://www.acmicpc.net/workbook/view/2771
+
+희태님 정리(카카오/삼성 기출 문제): https://ht.oopy.io/pscollection
+
 ## 벌금
 
 __문제 당__ : 3000원
