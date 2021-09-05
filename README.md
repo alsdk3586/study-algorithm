@@ -4,7 +4,7 @@
 
  
 
-## 2021년 9월 5 일은 [온라인]
+## 2021년 9월 12 일은 [온라인]
 
 __일요일 오전__
 
@@ -22,17 +22,17 @@ __게더타운__
 
 ## 문제 (4문제)
 
-1. 직업군 추천하기 - 위클리 챌린지 4주차
-https://programmers.co.kr/learn/courses/30/lessons/84325
+1. 모음 사전 - 위클리 챌린지 5주차
+https://programmers.co.kr/learn/courses/30/lessons/84512
 
-2. 키패드 누르기
-https://programmers.co.kr/learn/courses/30/lessons/67256
+2. 계단 오르기
+https://www.acmicpc.net/problem/2579
 
-3. 구간 합 구하기 4
-https://www.acmicpc.net/problem/11659
+3. 톱니바퀴
+https://www.acmicpc.net/problem/14891
 
-4. 감소하는 수
-https://www.acmicpc.net/problem/1038
+4. 캠프 준비
+https://www.acmicpc.net/problem/16938
 
 
 ## 문제 출제 참고 사이트 
