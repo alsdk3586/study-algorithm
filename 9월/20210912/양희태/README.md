@@ -1,0 +1,5 @@
+## 문제 풀이 (210912)
+1. [모음 사전](https://ht.oopy.io/a848618d-3776-49e3-b42c-148751f38f14)
+2. [계단 오르기](https://ht.oopy.io/f106a253-c6fa-4879-8081-b865a7826ac9)
+3. [톱니바퀴](https://ht.oopy.io/0e9c373c-ad0b-445e-943b-b09f932c7143)
+4. [캠프 준비](https://ht.oopy.io/de4dd661-0386-42e2-a7ef-34ed3c7a9ac1)
