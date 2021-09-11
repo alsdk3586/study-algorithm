@@ -14,7 +14,7 @@ int main() {
 		cout<<N;
 	}
 	else if(N == 1022)
-		cout<<9876543210<<endl;
+		cout<<9876543210;
 	else if(N >= 1023)
 		cout<<-1;
 	else{
