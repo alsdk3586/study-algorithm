@@ -22,18 +22,24 @@ def buildVowelDictionaryNFind(depth,prevStr,word):
     #     if(found):                           break;
         
     for v in vowels:
+        #첫문자는 빈칸이면 안됨
         if(prevStr=="" and v==' '):                         continue
+        #앞문자가 빈칸이면 빈칸만 가능
         elif(prevStr!="" and prevStr[-1]==' ' and v!=' '):  continue;
         
         if(depth<5):
             buildVowelDictionaryNFind(depth+1,prevStr+v,word)
         else:
+            #못찾으면 카운트만 증가
             if(word!=prevStr+v):    count=count+1
+            #찾으면 카운트+1 저장
             else:                   found=count+1
         
+        #저장되었으면 리턴
         if(found):                  break;
 
 def solution(word):
+    #비교를 위해 뒤에 빈칸을 채워준다.
     while(len(word)<5):
         word += ' ';
     
