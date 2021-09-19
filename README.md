@@ -4,7 +4,7 @@
 
  
 
-## 2021년 9월 19 일은 [온라인]
+## 2021년 9월 26 일은 [온라인]
 
 __일요일 오전__
 
@@ -22,17 +22,14 @@ __게더타운__
 
 ## 문제 (4문제)
 
-1. 사다리 조작
-https://www.acmicpc.net/problem/15684
+1. 입실 퇴실 (위클리 7주차)
+https://programmers.co.kr/learn/courses/30/lessons/86048
 
-2. 복서 정렬하기 (위클리 6주차)
-https://programmers.co.kr/learn/courses/30/lessons/85002
+2. 감시
+https://www.acmicpc.net/problem/15683
 
-3. A와 B
-https://www.acmicpc.net/problem/12904
-
-4. 영우는 사기꾼?
-https://www.acmicpc.net/problem/14676
+3. 타겟 넘버
+https://programmers.co.kr/learn/courses/30/lessons/43165
 
 
 ## 문제 출제 참고 사이트 
