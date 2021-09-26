@@ -4,7 +4,7 @@
 
  
 
-## 2021년 9월 26 일은 [온라인]
+## 2021년 10월 3 일은 [온라인]
 
 __일요일 오전__
 
@@ -22,14 +22,17 @@ __게더타운__
 
 ## 문제 (4문제)
 
-1. 입실 퇴실 (위클리 7주차)
-https://programmers.co.kr/learn/courses/30/lessons/86048
+1. 프린터
+https://programmers.co.kr/learn/courses/30/lessons/42587
 
-2. 감시
-https://www.acmicpc.net/problem/15683
+2. 기능개발
+https://programmers.co.kr/learn/courses/30/lessons/42586
 
-3. 타겟 넘버
-https://programmers.co.kr/learn/courses/30/lessons/43165
+3. 키로거
+https://www.acmicpc.net/problem/5397
+
+4. 크게 만들기
+https://www.acmicpc.net/problem/2812
 
 
 ## 문제 출제 참고 사이트 
