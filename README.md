@@ -4,7 +4,7 @@
 
  
 
-## 2021년 10월 3 일은 [온라인]
+## 2021년 10월 10 일은 [온라인]
 
 __일요일 오전__
 
@@ -22,17 +22,17 @@ __게더타운__
 
 ## 문제 (4문제)
 
-1. 프린터
-https://programmers.co.kr/learn/courses/30/lessons/42587
+1. 윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유
+https://www.acmicpc.net/problem/17129
 
-2. 기능개발
-https://programmers.co.kr/learn/courses/30/lessons/42586
+2. 줄어드는 숫자
+https://www.acmicpc.net/problem/1174
 
-3. 키로거
-https://www.acmicpc.net/problem/5397
+3. 성곽
+https://www.acmicpc.net/problem/2234
 
-4. 크게 만들기
-https://www.acmicpc.net/problem/2812
+4. 단어 변환
+https://programmers.co.kr/learn/courses/30/lessons/43163
 
 
 ## 문제 출제 참고 사이트 
