@@ -34,6 +34,9 @@ https://www.acmicpc.net/problem/2234
 4. 단어 변환
 https://programmers.co.kr/learn/courses/30/lessons/43163
 
+5. 위클리 8주차
+https://programmers.co.kr/learn/courses/30/lessons/86491
+
 
 ## 문제 출제 참고 사이트 
 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
