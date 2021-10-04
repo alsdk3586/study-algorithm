@@ -14,6 +14,7 @@ __10시__
 ## 만나는 장소
 
 __게더타운__
+https://gather.town/invite?token=pgp4BlXn
 
 ## 공지
 
