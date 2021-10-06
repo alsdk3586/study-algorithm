@@ -9,6 +9,7 @@
 
 4. 단어 변환 
 * https://programmers.co.kr/learn/courses/30/lessons/43163
+* [문제풀이](https://ryu-e.tistory.com/78)
 
 5. 위클리 8주차 
 * https://programmers.co.kr/learn/courses/30/lessons/86491
