@@ -4,6 +4,7 @@
 
 2. 줄어드는 숫자
 * https://www.acmicpc.net/problem/1174
+* [문제풀이](https://ryu-e.tistory.com/80)
 
 3. 성곽 
 * https://www.acmicpc.net/problem/2234
