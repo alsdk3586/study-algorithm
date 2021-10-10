@@ -4,7 +4,7 @@
 
  
 
-## 2021년 10월 10 일은 [온라인]
+## 2021년 10월 17 일은 [온라인]
 
 __일요일 오전__
 
@@ -21,22 +21,22 @@ https://gather.town/invite?token=pgp4BlXn
 - 주석달기
 
 
-## 문제 (4문제)
+## 문제 (5문제)
 
-1. 윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유
-https://www.acmicpc.net/problem/17129
+1. N-Queen
+https://www.acmicpc.net/problem/9663
 
-2. 줄어드는 숫자
-https://www.acmicpc.net/problem/1174
+2. 게리멘더링 2
+https://www.acmicpc.net/problem/17779
 
-3. 성곽
-https://www.acmicpc.net/problem/2234
+3. 스도쿠
+https://www.acmicpc.net/problem/2580
 
-4. 단어 변환
-https://programmers.co.kr/learn/courses/30/lessons/43163
+4. 더 맵게
+https://programmers.co.kr/learn/courses/30/lessons/42626
 
-5. 위클리 8주차
-https://programmers.co.kr/learn/courses/30/lessons/86491
+5. 위클리 9주차
+https://programmers.co.kr/learn/courses/30/lessons/86971
 
 
 ## 문제 출제 참고 사이트 
