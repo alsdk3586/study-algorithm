@@ -4,7 +4,7 @@
 
  
 
-## 2021년 10월 17 일은 [온라인]
+## 2021년 10월 24 일은 [온라인]
 
 __일요일 오전__
 
@@ -21,22 +21,17 @@ https://gather.town/invite?token=pgp4BlXn
 - 주석달기
 
 
-## 문제 (5문제)
+## 문제 (3문제)
 
-1. N-Queen
-https://www.acmicpc.net/problem/9663
+1. 모의고사
+https://programmers.co.kr/learn/courses/30/lessons/42840
 
-2. 게리멘더링 2
-https://www.acmicpc.net/problem/17779
+2. 구슬 탈출 2
+https://www.acmicpc.net/problem/13460
 
-3. 스도쿠
-https://www.acmicpc.net/problem/2580
+3. Garage game
+https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=540
 
-4. 더 맵게
-https://programmers.co.kr/learn/courses/30/lessons/42626
-
-5. 위클리 9주차
-https://programmers.co.kr/learn/courses/30/lessons/86971
 
 
 ## 문제 출제 참고 사이트 
