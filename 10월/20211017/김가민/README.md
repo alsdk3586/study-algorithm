@@ -5,7 +5,7 @@
 * [문제풀이](https://pro-grammers.tistory.com/68)
 
 3. 스도쿠
-
+* [문제풀이](https://pro-grammers.tistory.com/71)
 
 4. 더 맵게
 * [문제풀이](https://pro-grammers.tistory.com/69)
