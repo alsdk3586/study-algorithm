@@ -4,7 +4,7 @@
 
  
 
-## 2021년 10월 24 일은 [온라인]
+## 2021년 10월 31 일은 [온라인]
 
 __일요일 오전__
 
@@ -23,15 +23,14 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제 (3문제)
 
-1. 모의고사
-https://programmers.co.kr/learn/courses/30/lessons/42840
+1. 새로운 게임 2
+https://www.acmicpc.net/problem/17837
 
-2. 구슬 탈출 2
-https://www.acmicpc.net/problem/13460
+2. 두 용액
+https://www.acmicpc.net/problem/2470
 
-3. Garage game
-https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=540
-
+3. 아기 상어 2
+https://www.acmicpc.net/problem/17086
 
 
 ## 문제 출제 참고 사이트 
