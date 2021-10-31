@@ -17,11 +17,12 @@ board = [list(map(int, input().split())) for _ in range(9)]
 row_arr = [[False]*10 for _ in range(10)]
 col_arr = [[False]*10 for _ in range(10)]
 box_arr = [[False]*10 for _ in range(10)]
-
 pos = []
+
 for r in range(9):
     for c in range(9):
-        if not board[r][c]: pos.append([r, c])
+        if not board[r][c]: 
+            pos.append([r, c])
         else:
             row_arr[r][board[r][c]] = True
             col_arr[c][board[r][c]] = True
