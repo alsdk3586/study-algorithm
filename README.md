@@ -4,7 +4,7 @@
 
  
 
-## 2021년 10월 31 일은 [온라인]
+## 2021년 11월 7 일은 [온라인]
 
 __일요일 오전__
 
@@ -23,15 +23,17 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제 (3문제)
 
-1. 새로운 게임 2
-https://www.acmicpc.net/problem/17837
+1. 위클리 12주차
+https://programmers.co.kr/learn/courses/30/lessons/87946 
 
-2. 두 용액
-https://www.acmicpc.net/problem/2470
+2. 마법사 상어와 토네이도
+https://www.acmicpc.net/problem/20057
 
-3. 아기 상어 2
-https://www.acmicpc.net/problem/17086
+3. 날짜 계산
+https://www.acmicpc.net/problem/1476
 
+4. 주사위 굴리기
+https://www.acmicpc.net/problem/14499
 
 ## 문제 출제 참고 사이트 
 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
