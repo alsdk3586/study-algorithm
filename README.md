@@ -4,7 +4,7 @@
 
  
 
-## 2021년 11월 21 일은 [미정]
+## 2021년 11월 21 일은 [오프라인]
 
 __일요일 오전__
 
@@ -23,8 +23,8 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제 (4문제)
 
-1. N으로 표현
-https://programmers.co.kr/learn/courses/30/lessons/42895
+1. 전력망을 둘로 나누기
+https://programmers.co.kr/learn/courses/30/lessons/86971
 
 2. 평범한 배낭
 https://www.acmicpc.net/problem/12865
@@ -33,7 +33,7 @@ https://www.acmicpc.net/problem/12865
 https://www.acmicpc.net/problem/4358
 
 4. 파일 합치기 3
-https://www.acmicpc.net/problem/15991
+https://www.acmicpc.net/problem/13975
 
 ## 문제 출제 참고 사이트 
 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
