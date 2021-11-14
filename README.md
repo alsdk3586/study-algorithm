@@ -4,7 +4,7 @@
 
  
 
-## 2021년 11월 14 일은 [오프라인]
+## 2021년 11월 21 일은 [오프라인]
 
 __일요일 오전__
 
@@ -23,17 +23,17 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제 (4문제)
 
-1. 위클리 챌린지
-https://programmers.co.kr/learn/courses/30/lessons/84021
+1. 전력망을 둘로 나누기
+https://programmers.co.kr/learn/courses/30/lessons/86971
 
-2. 다오의 데이트
-https://www.acmicpc.net/problem/18188
+2. 평범한 배낭
+https://www.acmicpc.net/problem/12865
 
-3. 신입 사원
-https://www.acmicpc.net/problem/1946
+3. 생태학
+https://www.acmicpc.net/problem/4358
 
-4. 1, 2, 3 더하기 6
-https://www.acmicpc.net/problem/15991
+4. 파일 합치기 3
+https://www.acmicpc.net/problem/13975
 
 ## 문제 출제 참고 사이트 
 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
