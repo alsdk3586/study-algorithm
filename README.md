@@ -4,7 +4,7 @@
 
  
 
-## 2021년 11월 21 일은 [오프라인]
+## 2021년 11월 28 일은 [오프라인]
 
 __일요일 오전__
 
@@ -34,6 +34,13 @@ https://www.acmicpc.net/problem/4358
 
 4. 파일 합치기 3
 https://www.acmicpc.net/problem/13975
+
+5. 주사위 굴리기 2 
+https://www.acmicpc.net/problem/23288
+
+6. 블로그
+https://www.acmicpc.net/problem/21921
+
 
 ## 문제 출제 참고 사이트 
 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
