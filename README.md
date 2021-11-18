@@ -21,10 +21,10 @@ https://gather.town/invite?token=pgp4BlXn
 - 주석달기
 
 
-## 문제 (4문제)
+## 문제 (6문제)
 
-1. 전력망을 둘로 나누기
-https://programmers.co.kr/learn/courses/30/lessons/86971
+1. 교점에 별 만들기
+https://programmers.co.kr/learn/courses/30/lessons/87377
 
 2. 평범한 배낭
 https://www.acmicpc.net/problem/12865
