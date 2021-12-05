@@ -23,11 +23,13 @@
 
 
 
-## 2021년 12월 05 일은 [온라인]
+## 2021년 12월 12 일은 [오프라인]
 
 __일요일 오전__
 
 __10시__
+
+미참석 : 김혜민, 
 
 
 
@@ -48,19 +50,31 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제
 
-1. [1차] 뉴스 클러스터링
-https://programmers.co.kr/learn/courses/30/lessons/17677
+이번주 알고리즘 : __백트레킹__ [ __위상정렬__ / __시뮬레이션__ ]
 
-2. 입국심사
-https://programmers.co.kr/learn/courses/30/lessons/43238
+발표자 : __김태준__
 
-3. 감시
-https://www.acmicpc.net/problem/15683
+문제 : 
 
+ 	1. 외판원 순회 2 : __김가민__
 
+ 	https://www.acmicpc.net/problem/10971
+2. 스토쿠 : __정이__
+
+​	https://www.acmicpc.net/problem/2580
+
+3. n m : __김재현__
+
+   https://www.acmicpc.net/problem/15656
+
+4. 여행경로 : __김태준__, __양희태__
+
+   https://programmers.co.kr/learn/courses/30/lessons/43164
+
+   
 
 ## 문제 출제 참고 사이트 
-코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
+###### 코딩테스트 대비 문제집 with Baekjoon: https://github.com/tony9402/baekjoon
 
 삼성 SW 역량 테스트 기출: https://www.acmicpc.net/workbook/view/1152
 
