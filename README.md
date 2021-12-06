@@ -56,12 +56,13 @@ https://gather.town/invite?token=pgp4BlXn
 
 문제 : 
 
- 	1. 외판원 순회 2 : __김가민__
-
- 	https://www.acmicpc.net/problem/10971
+1. 외판원 순회 2 :__김가민__
+  
+    https://www.acmicpc.net/problem/10971
+  
 2. 스토쿠 : __정이__
 
-​	https://www.acmicpc.net/problem/2580
+    https://www.acmicpc.net/problem/2580
 
 3. n m : __김재현__
 
