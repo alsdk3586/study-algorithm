@@ -1,6 +1,6 @@
 # 알고리즘 스터디
 
-현재 인원 : 5명
+현재 인원 : 8명
 
 오프라인/ 온라인 격주 운영
 
@@ -23,13 +23,13 @@
 
 
 
-## 2021년 12월 12 일은 [오프라인]
+## 2021년 12월 19 일은 [온라인]
 
 __일요일 오전__
 
 __10시__
 
-미참석 : 김혜민, 
+미참석 : 
 
 
 
@@ -50,27 +50,26 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제
 
-이번주 알고리즘 : __백트레킹__ [ __위상정렬__ / __시뮬레이션__ ]
+이번주 알고리즘 : [__백트레킹__ __위상정렬__ ] / __시뮬레이션__ 
 
-발표자 : __김태준__
+발표자 : __유정이__
 
 문제 : 
 
-1. 외판원 순회 2 :__김가민__
+1. 연산자 끼워넣기 
   
-    https://www.acmicpc.net/problem/10971
+    https://www.acmicpc.net/problem/14888
   
-2. 스토쿠 : __정이__
+2. 선수과옥 
 
-    https://www.acmicpc.net/problem/2580
+    https://www.acmicpc.net/problem/14567
 
-3. n m : __김재현__
+3. 음악프로그램 
 
-   https://www.acmicpc.net/problem/15656
+   https://www.acmicpc.net/problem/2623
 
-4. 여행경로 : __김태준__, __양희태__
-
-   https://programmers.co.kr/learn/courses/30/lessons/43164
+4. 줄 세우기 
+   https://www.acmicpc.net/problem/2252
 
    
 
