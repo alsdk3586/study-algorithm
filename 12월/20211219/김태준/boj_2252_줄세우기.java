@@ -7,6 +7,15 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Scanner;
 
+// boj_2252_줄세우기 -> 위상정렬 기본문제
+/* 
+ * 풀이방법
+ * 1. 인풋을 받으면서 키의 우선선위를 통해 그래프를 만든다.(edgeMap, in)
+ * 2. 1의 인풋을 바탕으로 위상정렬을 한다. -> 위상정렬의 답은 여러개가 될 수 있다. 스페셜 저지문제이므로 아무거나 출력하면된다.
+
+
+
+*/
 public class Main {
 	
 	static int n;

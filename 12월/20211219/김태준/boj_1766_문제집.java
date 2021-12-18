@@ -8,6 +8,20 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
 
+// boj_1766_문제집
+// 문제풀이 방법
+/* 
+ * - 줄세우기 문제와 완전 같은 문제인데 조건이 1개 추가됬다.
+ *   "가능하면 쉬운문제 부터 풀어야한다."
+ *   -> 문제의 번호가 문제의 난이도를 의미한다. 즉, 번호가 높을수록 어려운문제. 따라서, 번호가 낮은문제부터 풀어야함.
+ *  
+ *  우선순위 큐를 사용해서 난이도가 낮은 문제부터 뽑아서 출력한다.
+ *
+ *
+ *
+ *
+ */
+
 public class Main {
 
 	static int n;

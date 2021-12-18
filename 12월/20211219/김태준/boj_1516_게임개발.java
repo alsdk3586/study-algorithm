@@ -7,6 +7,15 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Scanner;
 
+// boj_1516_게임개발
+/*
+ * 문제 풀이 방법
+ * - 이 문제 역시 위상정렬로 풀이가 가능하다. 작업 문제 메인로직은 같고
+ *   인풋, 아웃풋 형식만 조금다르다.
+ *   작업 문제를 풀었다면 충분히 풀 수 있는 문제이다.
+ *
+ *
+ */
 public class Main {
 
 	static int n;
