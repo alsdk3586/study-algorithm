@@ -54,21 +54,12 @@ https://gather.town/invite?token=pgp4BlXn
 
 문제 : 
 
-1. 로봇청소기 [혜민, 다정]
-https://www.acmicpc.net/problem/14503  
-    
+1. 캐슬 디펜스 [다정, 재현, 희태]
+https://www.acmicpc.net/problem/17135    
   
-2. 마법사 상어와 비바라기 [희태]
-https://www.acmicpc.net/problem/21610
+2. 어항 정리[태준, 정이, 가민]
+https://www.acmicpc.net/problem/23291
     
-
-3. 다단계 칫솔 판매 [태준, 정이]
-https://programmers.co.kr/learn/courses/30/lessons/77486
-   
-
-4. 스타트 택시 [가민, 재현]
-https://www.acmicpc.net/problem/19238
-
    
 
 ## 문제 출제 참고 사이트 
