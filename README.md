@@ -1,6 +1,6 @@
 # 알고리즘 스터디
 
-현재 인원 : 8명
+현재 인원 : 7명
 
 오프라인/ 온라인 격주 운영
 
@@ -23,7 +23,7 @@
 
 
 
-## 2021년 12월 19 일은 [온라인]
+## 2021년 12월 26 일은 [온라인]
 
 __일요일 오전__
 
@@ -50,26 +50,24 @@ https://gather.town/invite?token=pgp4BlXn
 
 ## 문제
 
-이번주 알고리즘 : [__백트레킹__ __위상정렬__ ] / __시뮬레이션__ 
-
-발표자 : __유정이__
+이번주 알고리즘 : 시뮬레이션
 
 문제 : 
 
-1. 연산자 끼워넣기 
+1. 로봇청소기 [혜민, 다정]
+https://www.acmicpc.net/problem/14503  
+    
   
-    https://www.acmicpc.net/problem/14888
-  
-2. 선수과옥 
+2. 마법사 상어와 비바라기 [희태]
+https://www.acmicpc.net/problem/21610
+    
 
-    https://www.acmicpc.net/problem/14567
+3. 다단계 칫솔 판매 [태준, 정이]
+https://programmers.co.kr/learn/courses/30/lessons/77486
+   
 
-3. 음악프로그램 
-
-   https://www.acmicpc.net/problem/2623
-
-4. 줄 세우기 
-   https://www.acmicpc.net/problem/2252
+4. 스타트 택시 [가민, 재현]
+https://www.acmicpc.net/problem/19238
 
    
 
